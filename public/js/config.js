@@ -24,7 +24,9 @@ require.config({
         courseadd : '../js/course-add',
         coursebasic : '../js/coursebasic',
         coursepicture : '../js/coursepicture',
-        uploadify : 'uploadify/jquery.uploadify.min'
+        uploadify : 'uploadify/jquery.uploadify.min',
+        Jcrop : 'Jcrop/Jcrop',
+        courselesson : '../js/courselesson'
     },
     shim : {//把非标准模块转化为标准模块
         bootstrap : {
@@ -41,6 +43,9 @@ require.config({
         },
         ckeditor :{
             exports : 'CKEDITOR'
+        },
+        Jcrop : {
+            deps : ['jquery']
         }
     }
 })
