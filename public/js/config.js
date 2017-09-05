@@ -20,6 +20,10 @@ require.config({
         util : '../js/util',
         teacheradd : '../js/teacheradd',
         teacherlist : '../js/teacher-list',
+        courselist : '../js/course-list',
+        courseadd : '../js/course-add',
+        coursebasic : '../js/coursebasic',
+        coursepicture : '../js/coursepicture',
         uploadify : 'uploadify/jquery.uploadify.min'
     },
     shim : {//把非标准模块转化为标准模块
